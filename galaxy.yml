@@ -6,7 +6,7 @@
 namespace: vrsarin
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: k3s-ansible
+name: k3s_ansible
 
 # The version of the collection. Must be compatible with semantic versioning
 version: 1.0.0
@@ -66,7 +66,7 @@ issues: https://github.com/k3s-io/k3s-ansible/issues
 # artifact. A pattern is matched from the relative path of the file or directory of the collection directory. This
 # uses 'fnmatch' to match the files or directories. Some directories and files like 'galaxy.yml', '*.pyc', '*.retry',
 # and '.git' are always filtered. Mutually exclusive with 'manifest'
-build_ignore: []
+build_ignore: ["ansible.cfg"]
 # A dict controlling use of manifest directives used in building the collection artifact. The key 'directives' is a
 # list of MANIFEST.in style
 # L(directives,https://packaging.python.org/en/latest/guides/using-manifest-in/#manifest-in-commands). The key
