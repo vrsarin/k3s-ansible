@@ -1,8 +1,7 @@
 ---
 name: Release
 
-on:
-  push:
+on: [workflow_dispatch, push]
 
 jobs:
   lint_repo:
