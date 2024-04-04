@@ -4,4 +4,4 @@ venv
 .vagrant
 inventory.yml
 playbook/debug.yml
-**.tar.gz
+**/*.tar.gz

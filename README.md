@@ -3,6 +3,8 @@
 Author: <https://github.com/itwars>  
 Current Maintainer: <https://github.com/dereknola>
 
+> View Ansible-Galaxy [help file](./docs/README.md).
+
 Easily bring up a cluster on machines running:
 
 - [X] Debian
