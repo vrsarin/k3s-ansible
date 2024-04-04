@@ -4,8 +4,6 @@ name: Release
 on:
   workflow_dispatch:
   push:
-    tags:
-      - v*.*.*
 
 jobs:
   lint_repo:
